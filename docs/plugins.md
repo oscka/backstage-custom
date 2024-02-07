@@ -10,9 +10,9 @@ description: Documentation on Introduction to Plugins
 
 - **참고**
   - [Backstage.io 검토](https://osc-korea.atlassian.net/wiki/spaces/consulting/pages/955842620)
-  - **Plugin List** [https://backstage.io/plugins](https://backstage.io/plugins)
-  - **Backstage Demo site**[https://demo.backstage.io/catalog?filters%5Bkind%5D=component&filters%5Buser%5D=all](https://demo.backstage.io/catalog?filters%5Bkind%5D=component&filters%5Buser%5D=all)
-  - **RedHat Showcase site**[https://showcase.janus-idp.io/catalog/default/component/backstage-showcase/kubernetes](https://showcase.janus-idp.io/catalog/default/component/backstage-showcase/kubernetes)
+  - [**Plugin List**](https://backstage.io/plugins)
+  - [**Backstage Demo site**](https://demo.backstage.io/catalog?filters%5Bkind%5D=component&filters%5Buser%5D=all)
+  - [**RedHat Showcase site**](https://showcase.janus-idp.io/catalog/default/component/backstage-showcase/kubernetes)
         
 
 Backstage 에 플러그인을 추가하여 다양한 오픈소스 솔루션과 연동할 수있습니다.
@@ -30,7 +30,7 @@ Plugin 추가 작업은 대부분 아래와 같은 순서로 진행됩니다.
 ## TODO Plugin 
 
 **참고**
-[https://github.com/backstage/backstage/tree/master/plugins/todo](https://github.com/backstage/backstage/tree/master/plugins/todo)
+[TODO 플러그인 참고](https://github.com/backstage/backstage/tree/master/plugins/todo)
 
 소스 코드에서 TODO 주석을 찾아볼 수 있는 Backstage Plugin
 
@@ -271,7 +271,7 @@ metadata:
 
 -   참고
 
-    -   [https://roadie.io/backstage/plugins/argo-cd/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=argo-cd](https://roadie.io/backstage/plugins/argo-cd/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=argo-cd)
+    -   [roadie.io argocd plugin](https://roadie.io/backstage/plugins/argo-cd/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=argo-cd)
 
     -   [**Optional**  ArgoCD BackEnd
         Plugin](https://www.npmjs.com/package/@roadiehq/backstage-plugin-argo-cd-backend)
@@ -408,7 +408,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcmdvY2QiLCJzdWIiOiJvc2NrYTphcGl
 
 -   해당 shell 에서 발급한 토큰을 `ARGOCD_AUTH_TOKEN` env 에 세팅해주면 됩니다.
 
-또는 Argo CD UI의 `/settings/accounts/<your-account>`\"Tokens\" 섹션에서 \"Generate New\"을 클릭하면 됩니다.
+또는 Argo CD UI의 `/settings/accounts/<your-account>` "Tokens" 섹션에서 "Generate New"을 클릭하면 됩니다.
 
 #### argocd account 확인
 
