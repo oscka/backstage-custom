@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: openmsa
+  description: openmsa
+  title: openmsa
+  links:
+    - url: https://backstage.openmsa.monster
+      title: Domain Readme
+    - url: https://backstage.openmsa.monster
+      title: Domain Metrics Dashboard
+      icon: dashboard
+spec:
+  owner: team-devops

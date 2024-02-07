@@ -1,0 +1,12 @@
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: evelyn
+spec:
+  memberOf: [team-devops]
+  profile:
+    displayName: evelyn
+    email: evelyn.park@osckorea.com
+    picture: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReFC5NabcURirwrI8zlll87J2VVB_9Sn2RjQ&usqp=CAU

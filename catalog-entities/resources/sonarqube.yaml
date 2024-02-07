@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: sonarqube
+  title: SonarQube
+  description: SonarQube
+  links:
+    - url: http://192.168.41.50:9000
+      title: Instance of SonarQube
+      icon: web
+    - url: https://docs.sonarsource.com/sonarqube/latest/
+      title: Documentation
+      icon: web
+spec:
+  type: identity-provider
+  lifecycle: production
+  owner: team-devops
+  system: openmsa-idp

@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: github
+  title: GitHub Backstage Custom repository
+  description: We store our deployment manifests and code for the Backstage in this GitHub repository.
+  links:
+    - url: https://github.com/oscka/backstage-custom
+      title: GitHub Repository
+      icon: web
+spec:
+  type: repository
+  lifecycle: production
+  owner: team-devops
+  system: openmsa-idp

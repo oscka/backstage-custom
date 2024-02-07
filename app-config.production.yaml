@@ -1,0 +1,38 @@
+app:
+  baseUrl: https://backstage.openmsa.monster
+
+backend:
+  baseUrl: https://backstage.openmsa.monster
+  listen: ':7007'
+  cors:
+    origin: https://backstage.openmsa.monster
+    methods: [GET, HEAD, PATCH, POST, PUT, DELETE]
+    credentials: true
+    
+  database:
+    client: pg
+    #connection: ${DATABASE_URL}
+    connection:
+      host: ${POSTGRES_HOST}
+      port: ${POSTGRES_PORT}
+      user: ${POSTGRES_USER}
+      password: ${POSTGRES_PASSWORD}
+
+auth:
+  environment: production
+  providers:
+    github:
+      production:
+        clientId: ${AUTH_GITHUB_CLIENT_ID}
+        clientSecret: ${AUTH_GITHUB_CLIENT_SECRET}
+
+# Reference documentation http://backstage.io/docs/features/techdocs/configuration
+# Note: After experimenting with basic setup, use CI/CD to generate docs and an external cloud storage when deploying TechDocs for production use-case.
+# 참고: 기본 설정을 실험해 본 후, 운영시 TechDocs를 배포할 때 CI/CD를 사용하여 문서와 외부 클라우드 저장소를 생성하세요.
+# https://backstage.io/docs/features/techdocs/how-to-guides#how-to-migrate-from-techdocs-basic-to-recommended-deployment-approach
+techdocs:
+  builder: 'local' # Alternatives - 'external'
+  generator:
+    runIn: 'local' # Alternatives - 'docker'
+  publisher:
+    type: 'local' # Alternatives - 'googleGcs' or 'awsS3'. Read documentation for using alternatives.

@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: argocd
+  title: argocd
+  description: |
+    Swagger at [https://swagger.io](https://swagger.io).
+  links:
+    - title: argocd
+      url: https://argo-cd.readthedocs.io/en/stable/
+spec:
+  type: openapi
+  system: openmsa-idp
+  owner: team-devops
+  lifecycle: production
+  definition:
+    $text: https://github.com/oscka/backstage-custom/blob/main/catalog-entities/apis/argocd-api.yaml

@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: nexus
+  title: Nexus
+  description: Nexus
+  links:
+    - url: http://192.168.41.50:8081
+      title: Instance of Nexus
+      icon: web
+    - url: https://help.sonatype.com/repomanager3
+      title: Documentation
+      icon: web
+spec:
+  type: identity-provider
+  lifecycle: production
+  owner: team-devops
+  system: openmsa-idp
