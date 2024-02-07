@@ -273,11 +273,17 @@ metadata:
 
     -   [https://roadie.io/backstage/plugins/argo-cd/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=argo-cd](https://roadie.io/backstage/plugins/argo-cd/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=argo-cd)
 
-    -   [\[**Optional**\] ArgoCD BackEnd
+    -   [**Optional**  ArgoCD BackEnd
         Plugin](https://www.npmjs.com/package/@roadiehq/backstage-plugin-argo-cd-backend)
 
 ArgoCD Plugin 은 ArgoCD 에서 제공하는([ArgoCD 공식문서](https://argo-cd.readthedocs.io/en/stable/developer-guide/api-docs/)) REST API 를 호출하는 코드를 라이브러리로 만든 것입니다.
 Backstage 카탈로그에 Application 의 현재 상태를 표시할 수 있습니다.
+
+### ArgoCD 접속 정보
+
+-   [https://argocd-oscka.openmsa.monster/](https://argocd-oscka.openmsa.monster/)
+-   admin
+-   osckorea!
 
 ### ArgoCD over view
 
