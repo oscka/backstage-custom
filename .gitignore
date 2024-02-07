@@ -55,7 +55,6 @@ site
 e2e-test-report/
 
 # custom
-start.ps1
+jinseul.ps1
 private/
 .idea
-02-07.md
