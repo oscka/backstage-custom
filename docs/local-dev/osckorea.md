@@ -43,8 +43,7 @@ for mac
 192.168.41.52  backstage.openmsa.monster argocd-oscka.openmsa.monster nexus-oscka.openmsa.monster docker.openmsa.monster
 ```
  
-
-backstage custom 코드는 GitHub  (  GitHub - oscka/backstage-custom: backstage custom project  ) 에서 확인할 수 있습니다.
+backstage custom 코드는 [GitHub](https://github.com/oscka/backstage-custom) 에서 확인할 수 있습니다.
 
 ## 연동 정보
 Backstage 는 아래 솔루션과 연동돼있으며 각 접속정보는 아래에서 확인하시면 됩니다.

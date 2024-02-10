@@ -4,8 +4,6 @@ title: Plugins
 description: Documentation on Introduction to Plugins
 ---
 
-
-
 ## 개요
 
 - **참고**
@@ -208,7 +206,7 @@ metadata:
 
     -   `nexus-repository-manager/docker.image-name: starter`
 
-starter 프로젝트의 경우 빌드결과물이 docker image 이므로 dokcer 어노테이션을 사용했습니다.
+starter 프로젝트의 경우 빌드결과물이 docker image 이므로 docker 어노테이션을 사용했습니다.
 
 빌드 결과물이 maven - jar 이거나 npm - package 일경우 **사용가능한
 annotation 확인
