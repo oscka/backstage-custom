@@ -14,12 +14,23 @@ yarn dev
 
 ## 개발 환경 구성
 
+WSL2, Ubuntu 22.04 기반에서 다음과 같이 환경을 구성한다.(5번 제외)
+
 1. node
-2. yarn
-3. python 3.x.x 버전 설치
+- nvm 설치 : curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash  
+- node 설치 
+  : nvm install 18.19.0 # (특정버전 설치)
+  : nvm use node 18.19.0 # (특정버전 사용)
+2. yarn 설치
+- npm install -g yarn
+3. python 3.x 버전 설치 : Ubuntu에서는 디폴트로 설치되어 있음(python3 명령으로 확인)
 4. [node-gyp](https://github.com/nodejs/node-gyp) 설치
+- npm install -g node-gyp
 5. Microsoft Visual Studio 2022 설치 (window 일경우)
 - C:\Program Files\Microsoft Visual Studio\2022\Community
+
+이후 backstage 프로젝트의 의존성을 다운로드(yarn install) 하고 실행한다.
+
 
 
 ### 로컬 개발 환경 구성 Trouble Shoot
