@@ -18,7 +18,7 @@ export AUTH_GITHUB_CLIENT_SECRET="c59c9bbebd58a7e0fccc48046d5dfaf2675a4ca4";
 # -----------------------------
 # GitHub Personal Access Tokens
 # -----------------------------
-export GITHUB_TOKEN="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";
+export GITHUB_TOKEN="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";
 
 # -----------------------------
 # Plugin
