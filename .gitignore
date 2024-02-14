@@ -58,3 +58,5 @@ e2e-test-report/
 jinseul.ps1
 private/
 .idea
+start.sh
+start.ps1

@@ -9,16 +9,17 @@ export POSTGRES_PORT="5432";
 export POSTGRES_USER="postgres";
 export POSTGRES_PASSWORD="postgres1234";
 
+# for github action
 # -----------------------------
 # GitHub OAuth Apps
 # -----------------------------
-export AUTH_GITHUB_CLIENT_ID="2c531987136151b11a3a";
-export AUTH_GITHUB_CLIENT_SECRET="c59c9bbebd58a7e0fccc48046d5dfaf2675a4ca4";
+export AUTH_GITHUB_CLIENT_ID="insert here your github oauth app client id";
+export AUTH_GITHUB_CLIENT_SECRET="insert here your github oauth app client secret";
 
 # -----------------------------
-# GitHub Personal Access Tokens
+# GitHub Personal Access Tokens(classic)
 # -----------------------------
-export GITHUB_TOKEN="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";
+export GITHUB_TOKEN="insert here your github personal access token";
 
 # -----------------------------
 # Plugin
