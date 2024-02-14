@@ -10,3 +10,15 @@ spec:
     displayName: evelyn
     email: evelyn.park@osckorea.com
     picture: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReFC5NabcURirwrI8zlll87J2VVB_9Sn2RjQ&usqp=CAU
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: binam33
+spec:
+  memberOf: [team-arch]
+  profile:
+    displayName: binam33
+    email: bi.nam@osckorea.com
+    picture: https://cdn-icons-png.flaticon.com/512/5072/5072857.png
