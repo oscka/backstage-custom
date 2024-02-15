@@ -15,11 +15,11 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: binam33
+  name: bi.nam
 spec:
   memberOf: [team-arch]
   profile:
-    displayName: binam33
+    displayName: bi.nam
     email: bi.nam@osckorea.com
     picture: https://cdn-icons-png.flaticon.com/512/5072/5072857.png
 ---
