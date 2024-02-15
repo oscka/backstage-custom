@@ -12,7 +12,7 @@ metadata:
       title: Documentation
       icon: web
 spec:
-  type: continuous-integrater
+  type: identity-provider
   lifecycle: production
   owner: team-devops
   system: openmsa-idp
