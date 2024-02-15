@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: jenkins
+  title: Jenkins
+  description: jenkins CI
+  links:
+    - url: http://192.168.41.50:9000
+      title: Jenkins
+      icon: web
+    - url: https://www.jenkins.io/doc/
+      title: Documentation
+      icon: web
+spec:
+  type: continuous-integrater
+  lifecycle: production
+  owner: team-devops
+  system: openmsa-idp

@@ -27,3 +27,4 @@ spec:
     - resource:keycloak
     - resource:github
     - resource:sonarqube
+    - resource:jenkins    
