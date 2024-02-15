@@ -22,3 +22,27 @@ spec:
     displayName: binam33
     email: bi.nam@osckorea.com
     picture: https://cdn-icons-png.flaticon.com/512/5072/5072857.png
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: tinaha
+spec:
+  memberOf: [team-devops]
+  profile:
+    displayName: tinaha
+    email: tina.ha@osckorea.com
+    picture: https://cdn-icons-png.flaticon.com/512/5072/5072857.png
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: jacksonkim
+spec:
+  memberOf: [team-devops]
+  profile:
+    displayName: jacksonkim
+    email: jackson.kim@osckorea.com
+    picture: https://cdn-icons-png.flaticon.com/512/5072/5072857.png
