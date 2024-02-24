@@ -5,11 +5,11 @@ description: local-develop
 ---
 
 ```
-# power shell 에서 env 적용 및 확인
-./start.ps1
+# 의존성 설치
+yarn install
 
-# backend, frontend 시작 커맨드
-yarn dev
+# power shell 에서 env 적용 및 확인
+./start.ps1(sh)
 ```
 
 ## 개발 환경 구성

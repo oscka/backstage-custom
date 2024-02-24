@@ -8,7 +8,6 @@ description: techdocs
 1. 문서 작성
 docs/index.md 작성
 
-
 2. mkdocs.yaml 생성
 
 프로젝트 ROOT 위치에 mkdocs.yaml 파일을 생성합니다.
@@ -34,10 +33,6 @@ plugins:
     backstage.io/techdocs-ref: dir:.
     #starter.backstage.io/techdocs-builder: local
 ```
-
-
-
-
 
 4. app-config.yaml 작성
 참고 : https://backstage.io/docs/features/techdocs/configuration
