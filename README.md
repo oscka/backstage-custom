@@ -63,6 +63,39 @@ Backstage 상의 모든 구성요소는 카탈로그 안에서 다음과 같은 
 
 catalog-info.yaml은 다음과 같은 형태로 구성되며 backstage를 통해 CREATE > Register Existing Component 메뉴에서 import 할 경우 DB에 관련 데이터들을 import하여 해당 서비스에서 사용할 수 있게 됩니다.
 
+```yaml
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: OpenMSA-IDP
+  title: OpenMSA-IDP
+  description: |
+    OpenMSA-IDP
+  links:
+    - title: GitHub
+      url: https://github.com/oscka/backstage-custom
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage-custom.backstage.io/techdocs-builder: local
+    backstage.io/managed-by-location: url:https://github.com/oscka/backstage-custom/blob/main/catalog-info.yaml
+    github.com/project-slug: oscka/backstage-custom
+    backstage.io/kubernetes-id: backstage
+    nexus-repository-manager/docker.image-name: backstage
+    argocd/app-name: backstage
+spec:
+  type: service
+  system: openmsa-idp
+  owner: team-develop
+  lifecycle: production
+  dependsOn:
+    - resource:argocd
+    - resource:nexus
+    - resource:keycloak
+    - resource:github
+    - resource:sonarqube
+    - resource:jenkins   
+```
+
 catalog 안에는 개발에 필요한 background 서비스, 솔루션, 어플리케이션들이 있으며 이를 사용하고 관리하기 위한 사용자, 권한, 그룹 들이 있습니다.
 
 ### 템플릿 사용하기
