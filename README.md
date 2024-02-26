@@ -1,3 +1,21 @@
+<!-- <h1 align="center">
+    <a href="https://amplication.com/#gh-light-mode-only">
+    <img src="./.github/assets/amplication-logo-light-mode.svg">
+    </a>
+    <a href="https://amplication.com/#gh-dark-mode-only">
+    <img src="./.github/assets/amplication-logo-dark-mode.svg">
+    </a>
+</h1>
+
+<h4 align="center">
+  <a href="https://github.com/oscka/backstage-custom/actions/workflows/ci.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/oscka/backstage-custom/ci.yml?branch=main&label=pipeline&style=flat-square" alt="continuous integration" style="height: 20px;">
+  </a>
+  <a href="https://opensource.org/licenses/Apache-2.0">
+    <img src="https://img.shields.io/badge/apache%202.0-blue.svg?style=flat-square&label=license" alt="license" style="height: 20px;">
+  </a>
+</h4> -->
+
 # [Backstage](https://backstage.io)
 
 ## 소개
