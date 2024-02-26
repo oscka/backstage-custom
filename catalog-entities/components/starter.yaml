@@ -20,4 +20,4 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-develop
+  owner: group:default/team-develop
