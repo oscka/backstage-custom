@@ -18,6 +18,8 @@
 
 # [Backstage](https://backstage.io)
 
+[![CI](https://github.com/oscka/backstage-custom/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/oscka/backstage-custom/actions/workflows/ci.yaml)
+
 ## 소개
 
 OSS인 Backstage를 이용하여 내부 개발자 플랫폼을 구축하기 위한 프로젝트입니다.
