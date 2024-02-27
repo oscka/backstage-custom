@@ -24,7 +24,7 @@ OSS인 Backstage를 이용하여 내부 개발자 플랫폼을 구축하기 위�
 
 [BackStage란?](./docs/index.md)
 
-Backstage는 IDP([내부 개발자 플랫폼,Internal Develper Platform](https://www.redhat.com/ko/topics/devops/what-is-an-internal-developer-platform))이며, 다양한 기능을 통해 개발자들에게 생산성 향상을 위한 도구를 제공하고 좀 더 개발에 집중할 수 있도록 도와줍니다.
+Backstage는 [OpenMSA](./docs/openmsa.md)내의 IDP([내부 개발자 플랫폼,Internal Develper Platform](https://www.redhat.com/ko/topics/devops/what-is-an-internal-developer-platform))이며, 다양한 기능을 통해 개발자들에게 생산성 향상을 위한 도구를 제공하고 좀 더 개발에 집중할 수 있도록 도와줍니다.
 
 ## 시작하기
 
@@ -139,3 +139,38 @@ catalog 안에는 개발에 필요한 background 서비스, 솔루션, 어플리
 ![컴포넌트생성완료](./docs/images/guide/templates3.png)
 
 개발팀은 DevOps 도구들 및 인프라 환경에 신경쓰지 않고 손쉽게 환경을 구성할 수 있으며 이를 한 화면에서 확인하고 관리할 수 있습니다.
+
+## 관리하기
+
+### 사용자, 그룹 추가
+
+사용자 추가
+
+catalog-entities 하위의 user.yaml안에 다음과 같이 추가한다. github sso authentication기준으로 name이 github의 id와 동일하여야 같은 ID로 인식한다.
+
+```yaml
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: binam33
+spec:
+  memberOf: [team-arch]
+  profile:
+    displayName: binam33
+    email: bi.nam@osckorea.com
+    picture: https://cdn-icons-png.flaticon.com/512/5072/5072857.png
+```
+
+그룹 추가
+
+```yaml
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-arch
+  title: arch
+spec:
+  type: team
+  children: []
+```
